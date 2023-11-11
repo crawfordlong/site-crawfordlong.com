@@ -65,7 +65,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  /*border-bottom: 1px dashed var(--lightgray);*/
   padding-bottom: 0.25em;
   padding-top: 0.25em;
   margin-bottom: 0.5em;
@@ -406,7 +406,7 @@ footer {
   0% {
     background-position: 0% 82%;
   }
-  50% {
+i  50% {
     background-position: 100% 19%;
   }
   100% {
@@ -427,7 +427,7 @@ footer {
 
 .animated-rainbow-hover:hover,
 .animated-rainbow-hover:focus {
-  color: var(--white);
+  color: var(--white);/*
   background: linear-gradient(
     238deg,
     red,
@@ -445,5 +445,5 @@ footer {
   -webkit-animation: rainbow 16s ease infinite;
   -z-animation: rainbow 16s ease infinite;
   -o-animation: rainbow 16s ease infinite;
-  animation: rainbow 16s ease infinite;
+  animation: rainbow 16s ease infinite;*/
 }
